@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <form>
+            <div class="main">
+                <h1>Tour Booking Form</h1>
+            </div>
+            <div class="user_name">
+                <h2>Name</h2>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div class="email">
+                <h2>Email</h2>
+                <input type="text" placeholder="name@mail.ru">
+            </div>
+            <div class="phone">
+                <h2>Phone</h2>
+                <input type="tel" placeholder="### ### ####">
+            </div>
+            <div class="questions">
+                <h2>When are you planning to vizit?</h2>
+                <input type="date">
+            </div>
+            <div class="questions">
+                <h2>How many people are in your group?</h2>
+                <input type="text" placeholder="">
+            </div>
+            <div class="questions">
+                <h2>Which tour are you most interested in?</h2>
+                <select class="tour" id="">
+                    <option selected disabled="">*Please select*</option>
+                    <option value="">USA</option>
+                    <option value="">Germany</option>
+                    <option value="">Switzerland</option>
+                    <select>
+            </div>
+            <div class="questions">
+                <h2>What is the best way to contact you?</h2>
+
+                <div class="select_checkbox">
+                    <div>
+                        <input type="checkbox" name="contact" value="Phone">
+                        <label for="phone">Phone</label>
+
+                    </div>
+                    <div>
+                        <input type="checkbox" name="contact" value="Email">
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="contact" value="Either">
+                        <label for="either">Either</label>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="questions">
+                <h2>If phone, when is the best time of day for a call-back?</h2>
+                <div class="time">
+                    <input value="8-11 AM" name="time" type="radio">
+                    <label for="8-11 AM">8-11 AM</label>
+                </div>
+                <div class="time">
+                    <input value="12-4 PM" name="time" type="radio">
+                    <label for="12-4 PM">12-4 PM</label>
+                </div>
+                <div class="time">
+                    <input value="6-10 PM" name="time" type="radio">
+                    <label for="12-4 PM">6-10 PM</label>
+                </div>
+
+            </div>
+            <div class="questions">
+                <h2>Anything else we should know?</h2>
+                <textarea name="" id=""></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Send</button>
+            </div>
+
+    </div>
+
+
+    </form>
+
+
+    </div>
+
+
+</body>
+
+</html>
